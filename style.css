@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FF6B35;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.hero {
+  background: url('images/happy-dog.jpg') center/cover no-repeat;
+  padding: 6rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+.hero-content {
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.primary {
+  background: #FF6B35;
+  color: #fff;
+}
+.green {
+  background: #6FCF97;
+  color: #fff;
+}
+.blog-preview, .ebook, .products {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.articles, .product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.card, .product-card {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 250px;
+}
+.card img, .product-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+.ebook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: left;
+}
+.ebook-img img {
+  max-width: 300px;
+}
+.footer {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 2rem;
+}
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.newsletter input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.socials a {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+@media (max-width: 768px) {
+  .hero-content, .ebook {
+    text-align: center;
+    flex-direction: column;
+  }
+}
